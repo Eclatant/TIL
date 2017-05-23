@@ -1,0 +1,65 @@
+body {
+  font: "Helvetica NEUE", sans-serif;
+  padding: 50px;
+}
+
+article {
+  border: 1px solid #eeeeee;
+  width: 600px;
+  margin: auto;
+}
+
+article .author {
+  padding: 20px;
+}
+
+.author .profile-photo {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+
+article .profile-photo, article .author-name {
+  float: left;
+}
+
+article .created-at {
+  float: right;
+}
+
+article .content p {
+  padding: 0px 20px;
+}
+
+article .content img {
+  max-width: 600px;
+}
+
+article .social {
+  padding: 10px 20px;
+}
+
+article .social .like {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+article .social .action {
+  padding: 25px 0px;
+}
+
+article .social .action .heart, article .social .action .option {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+article .social .action .comment {
+  float: left;
+  width: 500px;
+  padding: 0px 10px;
+}
+
+.author .created-at, .social .action .comment {
+  color: grey;
+}
